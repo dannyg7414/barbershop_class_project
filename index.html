@@ -3,25 +3,204 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Danny G’s Urban Cutz | Class Project</title>
+
+  <meta
+    name="description"
+    content="Explore Danny G’s Urban Cutz LLC, including services,
+    pricing, haircut gallery, and shop information."
+  >
+
+  <title>Danny G’s Urban Cutz LLC | Services &amp; Shop Information</title>
+
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <header>
-    <h1>Danny G’s Urban Cutz</h1>
-    <p>Fresh cuts. Clean lines. Confidence.</p>
+  <a class="skip-link" href="#main-content">
+    Skip to main content
+  </a>
+
+  <header class="site-header" id="home">
+    <div class="container">
+      <h1>Danny G’s Urban Cutz LLC</h1>
+      <p class="tagline">Fresh cuts. Clean lines. Confidence.</p>
+
+      <nav aria-label="Main navigation">
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#services">Services &amp; Pricing</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
-  <main>
-    <h2>Welcome</h2>
-    <p>
-      This website is my web development class project.
-      It will feature information about the barbershop,
-      services and prices, a haircut gallery, and contact details.
-    </p>
+  <main id="main-content" class="container" tabindex="-1">
+
+    <section class="hero" aria-labelledby="welcome-heading">
+      <div class="hero-content">
+        <h2 id="welcome-heading">Welcome to Danny G’s Urban Cutz LLC</h2>
+
+        <p>
+          Your style comes first. Explore our services,
+          check out our latest cuts, and find your next fresh look.
+        </p>
+
+        <a class="button" href="#services">
+          View Services &amp; Pricing
+        </a>
+      </div>
+
+      <div class="photo-placeholder hero-photo">
+        <p>Shop or haircut photo coming soon.</p>
+      </div>
+    </section>
+
+    <section class="about-section" aria-labelledby="about-heading">
+      <h2 id="about-heading">About the Shop</h2>
+
+      <p>
+        Danny G’s Urban Cutz LLC is focused on fresh cuts,
+        personal style, and a welcoming experience.
+        Explore our services and haircut gallery to get
+        to know the shop.
+      </p>
+    </section>
+
+    <section id="services" aria-labelledby="services-heading">
+      <h2 id="services-heading">Services &amp; Pricing</h2>
+
+      <dl class="price-list">
+        <div class="price-row">
+          <dt>Men’s Haircut</dt>
+          <dd>$25</dd>
+        </div>
+
+        <div class="price-row">
+          <dt>Kids Haircut (ages 6–17)</dt>
+          <dd>$15</dd>
+        </div>
+
+        <div class="price-row">
+          <dt>Taper</dt>
+          <dd>$15</dd>
+        </div>
+
+        <div class="price-row">
+          <dt>Facial Lineup</dt>
+          <dd>$5</dd>
+        </div>
+
+        <div class="price-row">
+          <dt>Beard Trim</dt>
+          <dd>$5</dd>
+        </div>
+      </dl>
+    </section>
+
+    <section id="gallery" aria-labelledby="gallery-heading">
+      <h2 id="gallery-heading">Haircut Gallery</h2>
+
+      <p class="section-intro">
+        Photos of our work will be added soon.
+      </p>
+
+      <div class="gallery-grid">
+        <div class="photo-placeholder">
+          <p>Haircut photo 1 coming soon.</p>
+        </div>
+
+        <div class="photo-placeholder">
+          <p>Haircut photo 2 coming soon.</p>
+        </div>
+
+        <div class="photo-placeholder">
+          <p>Haircut photo 3 coming soon.</p>
+        </div>
+
+        <div class="photo-placeholder">
+          <p>Haircut photo 4 coming soon.</p>
+        </div>
+
+        <div class="photo-placeholder">
+          <p>Haircut photo 5 coming soon.</p>
+        </div>
+
+        <div class="photo-placeholder">
+          <p>Haircut photo 6 coming soon.</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="info-grid">
+      <section id="hours" aria-labelledby="hours-heading">
+        <h2 id="hours-heading">Business Hours</h2>
+
+        <!-- Replace these placeholders with confirmed hours. -->
+        <dl class="hours-list">
+          <div>
+            <dt>Monday</dt>
+            <dd>To be added</dd>
+          </div>
+
+          <div>
+            <dt>Tuesday</dt>
+            <dd>To be added</dd>
+          </div>
+
+          <div>
+            <dt>Wednesday</dt>
+            <dd>To be added</dd>
+          </div>
+
+          <div>
+            <dt>Thursday</dt>
+            <dd>To be added</dd>
+          </div>
+
+          <div>
+            <dt>Friday</dt>
+            <dd>To be added</dd>
+          </div>
+
+          <div>
+            <dt>Saturday</dt>
+            <dd>To be added</dd>
+          </div>
+
+          <div>
+            <dt>Sunday</dt>
+            <dd>To be added</dd>
+          </div>
+        </dl>
+      </section>
+
+      <section id="contact" aria-labelledby="contact-heading">
+        <h2 id="contact-heading">Contact &amp; Location</h2>
+
+        <!-- Replace these placeholders with public business details. -->
+        <dl class="contact-list">
+          <dt>Phone</dt>
+          <dd>Business phone number to be added.</dd>
+
+          <dt>Location</dt>
+          <dd>Business address to be added.</dd>
+
+          <dt>Social Media</dt>
+          <dd>Business social media link to be added.</dd>
+        </dl>
+      </section>
+    </div>
+
   </main>
 
-  <footer>
-    <p>Created for a school web development project.</p>
+  <footer class="site-footer">
+    <div class="container">
+      <p>Danny G’s Urban Cutz LLC</p>
+      <p>Created for a school web development project.</p>
+      <a href="#home">Back to top</a>
+    </div>
   </footer>
 </body>
 </html>
