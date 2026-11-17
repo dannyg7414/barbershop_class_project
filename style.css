@@ -352,3 +352,29 @@ main > section + section {
     flex-wrap: wrap;
   }
 }
+
+/* Display real photos without the placeholder styling */
+.hero-photo {
+  min-height: 0;
+}
+
+.hero-photo img {
+  display: block;
+  width: 100%;
+  max-width: 420px;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 14px;
+}
+
+.gallery-grid {
+  align-items: start;
+}
+
+.gallery-grid img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid #dddddd;
+  border-radius: 14px;
+}
