@@ -553,3 +553,17 @@ textarea:focus-visible {
 .privacy-note {
   max-width: 650px;
 }
+
+/* Homepage main heading */
+.hero-content h1 {
+  margin: 0 0 1rem;
+  color: #2300a8;
+  font-size: 2rem;
+  line-height: 1.25;
+}
+
+@media (max-width: 700px) {
+  .hero-content h1 {
+    font-size: 1.7rem;
+  }
+}
