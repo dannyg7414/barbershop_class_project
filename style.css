@@ -567,3 +567,18 @@ textarea:focus-visible {
     font-size: 1.7rem;
   }
 }
+
+/* Linked barbershop logo */
+.site-logo {
+  display: block;
+  width: 220px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+@media (max-width: 450px) {
+  .site-logo {
+    width: 180px;
+  }
+}
