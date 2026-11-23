@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta
+    name="description"
+    content="Contact Danny G’s Urban Cutz LLC at 812-514-5485. Find our Terre Haute location and estimate the price of a haircut or beard service."
+  >
+
+  <title>Contact &amp; Location | Danny G’s Urban Cutz LLC</title>
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <a class="skip-link" href="#main-content">
+    Skip to main content
+  </a>
+
+  <header class="site-header" id="top">
+    <div class="container">
+      <a class="brand-link" href="index.html">
+        Danny G’s Urban Cutz LLC
+      </a>
+
+      <p class="tagline">
+        Fresh cuts. Clean lines. Confidence.
+      </p>
+
+      <nav aria-label="Main navigation">
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li>
+            <a href="services.html">Services &amp; Pricing</a>
+          </li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="hours.html">Hours</a></li>
+          <li>
+            <a href="contact.html" aria-current="page">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main
+    id="main-content"
+    class="container page-content"
+    tabindex="-1"
+  >
+    <h1>Contact Our Terre Haute Barbershop</h1>
+
+    <p class="page-intro">
+      Have a question about a service or your next visit?
+      Call Danny G’s Urban Cutz LLC.
+    </p>
+
+    <section aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Phone &amp; Location</h2>
+
+      <dl class="contact-list">
+        <dt>Phone</dt>
+        <dd>
+          <a href="tel:+18125145485">812-514-5485</a>
+        </dd>
+
+        <dt>Address</dt>
+        <dd>
+          1507 S 3rd St<br>
+          Terre Haute, Indiana 47802
+        </dd>
+
+        <dt>Regular Hours</dt>
+        <dd>
+          Thursday and Friday: 2 PM–11 PM.<br>
+          Closed all other days.
+        </dd>
+      </dl>
+
+      <p>
+        <a href="hours.html">View the full business-hours table</a>.
+      </p>
+
+      <a class="button" href="tel:+18125145485">
+        Call the Shop
+      </a>
+    </section>
+
+    <section aria-labelledby="estimate-heading">
+      <h2 id="estimate-heading">Estimate Your Service Price</h2>
+
+      <p id="estimate-help">
+        Select one service to view its listed price.
+        This calculator does not book an appointment
+        or send information to the shop.
+      </p>
+
+      <noscript>
+        <p>
+          This estimator requires JavaScript.
+          You can also
+          <a href="services.html">view all service prices</a>
+          or call 812-514-5485.
+        </p>
+      </noscript>
+
+      <form
+        id="estimate-form"
+        class="service-form"
+        aria-describedby="estimate-help"
+      >
+        <label for="service">Choose a service (required)</label>
+
+        <select
+          id="service"
+          name="service"
+          required
+          aria-describedby="service-error"
+        >
+          <option value="">Select a service</option>
+          <option value="mens-haircut">Men’s Haircut</option>
+          <option value="kids-haircut">
+            Kids Haircut (ages 6–17)
+          </option>
+          <option value="taper">Taper</option>
+          <option value="facial-lineup">Facial Lineup</option>
+          <option value="beard-trim">Beard Trim</option>
+        </select>
+
+        <p id="service-error" class="field-error"></p>
+
+        <button class="button" type="submit">
+          Calculate Price
+        </button>
+
+        <p
+          id="estimate-result"
+          class="form-result"
+          role="status"
+          aria-atomic="true"
+        ></p>
+      </form>
+
+      <p class="privacy-note">
+        Privacy note: This estimator runs in your browser.
+        It does not ask for your name, email address,
+        or phone number, and its script does not store
+        or send your selection.
+      </p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>Danny G’s Urban Cutz LLC</p>
+      <p>Created for a school web development project.</p>
+      <a href="#top">Back to top</a>
+    </div>
+  </footer>
+</body>
+</html>
